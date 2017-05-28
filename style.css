@@ -2,14 +2,23 @@
 {
 	#icons
 	{
-		flex-direction: column;
+
 		  align-items: center;
 	
 	}
 	.icon
 	{
 		margin:20px;
+          float: left;
+
 	}
+    #legend
+    {
+        clear:both;
+            position: initial;
+ margin:100px 0 0 0 ;
+        
+    }
 }
 
 
@@ -21,7 +30,8 @@
 
 body { 
 font-family: 'Ubuntu Mono', monospace;
-    background:  url("cheap_diagonal_fabric.png") repeat fixed center; 
+   background:  url("cheap_diagonal_fabric.png") repeat fixed center; 
+
 }
 h2
 {
@@ -50,9 +60,11 @@ h2
   align-items: center;
   justify-content: center;
     font-size:100px;
+
 }
 #icons, #projects
 {
+          flex-wrap: wrap;
   height:30%;
     display:flex;
   justify-content: space-around;
@@ -100,7 +112,8 @@ nav
  padding: 0;
  width: 100%;
  height:100px;
- background-color:#0486ff;
+    background-color:#03C9A9;
+border-bottom:11px solid #01b898;
  z-index: 2;
 justify-content:space-around;
 
@@ -108,7 +121,7 @@ justify-content:space-around;
 a
 {
 	text-decoration:none;
-		color:#7a2312;
+		color:#edf1f1;
     font-weight:700;
     text-shadow: 1px 1px #444;
 }
@@ -119,7 +132,7 @@ a
 }
  #icons
 {
-		background-color: rgba(85,107,47, 0.2);
+		background-color: rgba(171, 183, 183, 0.6);
 }
 
 
@@ -127,11 +140,12 @@ a
 {
         width:250px;
     height:250px;
-    background:silver;
+    background:rgba(238,238,238,0.4);
       display: flex;
   align-items: center;
   justify-content: center;
     font-size:100px;
+    border:0.3px dotted slategray;
 }
 img
 {
