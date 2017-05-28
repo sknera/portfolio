@@ -1,0 +1,2 @@
+# portfolio
+szukam stażu
