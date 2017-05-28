@@ -19,6 +19,10 @@
  margin:100px 0 0 0 ;
         
     }
+    .project
+    {
+        margin-bottom:50px;
+    }
 }
 
 
@@ -31,6 +35,8 @@
 body { 
 font-family: 'Ubuntu Mono', monospace;
    background:  url("cheap_diagonal_fabric.png") repeat fixed center; 
+    font-size:20px;
+    text-align:center;
 
 }
 h2
@@ -129,6 +135,7 @@ a
 #who,#what
 {
 	margin:25px;
+    width:35%;
 }
  #icons
 {
@@ -157,12 +164,17 @@ img
     position: relative;
     top:-70px;
     float:right;
- margin-right:100px;
+ margin-right:200px;
 }
 #icons
 {
     clear:both;
 }
+ul
+{
+    text-align:initial;
+}
+
 li
 {
       list-style-type: none;
@@ -182,7 +194,6 @@ li:before
     transform: scale(2); 
 }
 
-    
     
     
     
