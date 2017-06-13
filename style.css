@@ -242,23 +242,6 @@ li:before
   right:30px;
   border:solid 1px #fff;
 }
-.left
-{
-  background:#252525;
-  color:white;
-  width:30%;
-  float:left;
-}
-.right
-{
-  background:#404040;
-  width:100%;
-}
-.right a
-{
-  color:#f5c41f;
-}
-
 #contact-wrapper
 {
   display: flex;
@@ -269,7 +252,7 @@ li:before
 {
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   height: 200px;
   width: 92%;
   background:rgba(65, 131, 215, 1);
@@ -279,9 +262,9 @@ li:before
 }
 #contact a
 {
-  color:  rgba(255,215,0,0.8);
+  color:rgba(255,215,0,0.8);
 } 
 #contact a:hover
 {
-color:rgba(255,215,0,1);
+  color:rgba(255,215,0,1);
 } 
