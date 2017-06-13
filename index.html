@@ -1,46 +1,36 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-<script src="js.js"></script>
+<script src="scrollTo.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-
-     
 </head>
 <body>
    <nav>	
-  	 	 <a href="https://github.com/sknera"><div class="element">Github</div></a>
-  		<div class="element">Projekty</div>
-  		<div href="#" class="element">kontakt</div>
-  		<div id="overlay">
-  		<div id="close_button">X</div>
-  		<div id="ove 			<div class="left">Numer telefonu: </div> <div class="right"><a href="tel:18475555555">1-847-555-5555</a></div>
-  			<div class="left">Numer telefonu: </div> <div class="right"><a href="tel:18475555555">1-847-555-5555</a></div>rlay_div">
- 
-
-  		</div>
+  	 <div class="element" data-scrollTo="projects">Projekty</div>
+     <div class="element" data-scrollTo="contact">Kontakt</div>
+     <a href="https://github.com/sknera"><div class="element">Github</div></a>
+  		  </div>
   		</div>
    </nav>
-    <section>
+<section>
     <div id="about">
-	<div id="who">
-   <h2>Kim jestem?</h2>
-	<p>Tegorocznym absolwentem technikum na profilu technik-informatyk</p>
-		</div>
-		<div id="what">
-	   		<h2>Czego szukam?</h2>
-			<p>Praktyk/stażu w okresie czerwiec-wrzesień 2017</p>
-		</div>
+	      <div>
+           <h2>Kim jestem?</h2>
+	         <p>Tegorocznym absolwentem technikum na profilu technik-informatyk</p>
+		    </div>
+		    <div>
+	   		    <h2>Czego szukam?</h2>
+			       <p>Praktyk/stażu w okresie lipiec-wrzesień 2017</p>
+		    </div>
 	</div>
-    </section>
-	
-	
-	    <section>
-	<div id="second">
-    <h2>Co już umiem?</h2>
+</section>
+<section>
+	   <div id="second">
+        <h2>Co już umiem?</h2>
         <div id="legend">Najedź na ikonę aby się przekonać
             <ul>
                 <li>dość dobrze</li>
@@ -49,7 +39,9 @@
             </ul>
     
     </div>
-    </div>
+  </div>
+
+
 
     
 <div id="icons">
@@ -65,14 +57,37 @@
  </section>
     
 <section>
-    <h2 id="third">Próbki kodu:</h2>
+    <h2>Próbki kodu:</h2>
    		 <div id="projects" >
-       		<a href="https://sknera.github.io/BEAUTY-and-JSON/"><div class="project" title="Przejdź to GitHuba"> <img src="angular.png"><div class="hover"></div></div></a>
-       		<a href="https://sknera.github.io/xmas-tree/"> <div class="project" title="Przejdź to GitHuba"><img src="jquery.png"></div></a>
-       		<a href="https://sknera.github.io/lightbox/"> <div class="project" title="Przejdź to GitHuba"><img src="css3.gif"></div></a>
+       		<a href="https://sknera.github.io/BEAUTY-and-JSON/">
+             <div class="project" title="Przejdź to GitHuba"> 
+                <img src="angular.png">
+              </div>
+          </a>
+       		<a href="https://sknera.github.io/xmas-tree/">
+              <div class="project" title="Przejdź to GitHuba">
+                <img src="jquery.png">
+              </div>
+          </a>
+       		<a href="https://sknera.github.io/lightbox/">
+              <div class="project" title="Przejdź to GitHuba">
+                <img src="css3.png">
+              </div>
+          </a>
     </div>
  </section>
-    
+<section>
+<h2>Kontakt:</h2>
+<div id="contact-wrapper">
+   <div id="contact">
+   <div><h5>Pobierz moje CV: <a href="CV.pdf" download="Adrian_Charkiewicz_CV">pobierz pdf</a></h5></div>
+    <div> <h5>Zadzwoń do mnie: <a href="tel:690356969">69 035 69 69</a></h5></div>
+    <div><h5>Lub napisz maila: <a href="mailto:adrian.charkiewicz@sluzbowy.email">adrian.charkiewicz@sluzbowy.email</a> </h5></div>
+   </div>
+</div>
+
+
+</section>
 
 </body>
 </html>
