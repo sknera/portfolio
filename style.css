@@ -18,7 +18,8 @@ body
 { 
   font-family: 'Ubuntu Mono', monospace;
   background:  #eee url("gray_jean.png") repeat fixed center; 
-  font-size:20px;
+  font-size:22px;
+  margin:0;
 }
 h2
 {
@@ -109,7 +110,7 @@ nav
 }
  #icons
 {
-  background: rgba(28, 109, 230, 0.15);
+  background: rgba(28, 109, 230, 0.07);
 }
 .project
 {
