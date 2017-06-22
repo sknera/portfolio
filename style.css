@@ -21,6 +21,10 @@ body
   font-size:22px;
   margin:0;
 }
+::-webkit-scrollbar
+{ 
+  display: none; 
+}
 h2
 {
   font-family: "Times New Roman", Georgia, Serif; 
