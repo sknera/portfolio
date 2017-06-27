@@ -115,7 +115,7 @@ nav
 .project
 {
   width:620px;
-  height:620px;
+  height:520px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,8 +128,8 @@ a
 }
 img
 {
-  height:400px;
-  width:550px;
+  height:450px;
+  width:565px;
 }
 #legend
 {
