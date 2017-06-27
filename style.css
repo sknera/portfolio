@@ -123,6 +123,13 @@ nav
   justify-content: center;
   border:0.3px dotted slategray;
 }
+label {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 a
 {
   text-decoration: none;
