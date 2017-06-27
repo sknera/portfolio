@@ -53,10 +53,14 @@ h2
   display:flex;
   justify-content: space-around;
 }
-.icon:hover, .project:hover
+.icon:hover
 {
   transform: scale(1.2);
   box-shadow: 10px 10px 5px #333;
+}
+.project:hover
+{
+  filter: alpha(opacity=90);
 }
 .icon:nth-child(1):hover,.icon:nth-child(2):hover,.icon:nth-child(3):hover,.icon:nth-child(4):hover
 {
