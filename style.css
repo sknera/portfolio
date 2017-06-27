@@ -114,15 +114,13 @@ nav
 }
 .project
 {
-  width:420px;
-  height:420px;
-  background:rgba(238,238,238,0.2);
+  width:620px;
+  height:620px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size:100px;
   border:0.3px dotted slategray;
-  background-color:rgba(240,248,255,0.7);
 }
 a
 {
@@ -130,8 +128,8 @@ a
 }
 img
 {
-  height:250px;
-  width:250px;
+  height:400px;
+  width:550px;
 }
 #legend
 {
