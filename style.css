@@ -30,7 +30,6 @@ h2
 }
 #about
 {
-  background: rgb(129, 207, 224);
   display: flex;
   justify-content:space-around;
   border-bottom: 3px dotted #999;
